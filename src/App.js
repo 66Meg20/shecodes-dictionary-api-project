@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>Hello world</h1>
+      <footer>
+        This project was coded by megan Jackson and is open sourced on{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/66Meg20/shecodes-dictionary-api-project"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
+          GitHub
         </a>
-      </header>
+      </footer>
     </div>
   );
 }
