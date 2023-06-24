@@ -1,4 +1,5 @@
 import "./App.css";
+import Dictionary from "./Dictionary.js";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
         {" "}
         Click Me
       </a>
+
+      <Dictionary />
       <footer>
         This project was coded by megan Jackson and is open sourced on{" "}
         <a
