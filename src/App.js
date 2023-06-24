@@ -5,10 +5,6 @@ function App() {
   return (
     <div className="App">
       <h1>Hello world</h1>
-      <a href="#" className="btn btn-primary shadow">
-        {" "}
-        Click Me
-      </a>
 
       <Dictionary />
       <footer>
